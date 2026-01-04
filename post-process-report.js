@@ -74,7 +74,7 @@ indexHtmlFiles.forEach(indexHtmlPath => {
       return;
     }
 
-    const scriptTag = `<script src="${customScriptFilename}"></script>`;
+    const scriptTag = `<script async src="${customScriptFilename}"></script>`;
     const newHtmlContent = htmlContent.replace('</body>', `${scriptTag}\n</body>`);
     
     fs.writeFileSync(indexHtmlPath, newHtmlContent, 'utf8');
