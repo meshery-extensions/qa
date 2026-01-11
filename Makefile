@@ -24,7 +24,7 @@ define results-sync
 	@mkdir -p $(2)
 	@if [ -n "$($(1))" ] && [ -d "$($(1))" ]; then \
 		echo "Copying results from $($(1)) → $(2)"; \
-		cp -r "$($(1))"/* $(2)/; \
+		cp -r "$($(1))"/* $(2)/ || true; \
 	else \
 		echo "$(1) not set or directory does not exist, skipping"; \
 	fi
@@ -33,12 +33,17 @@ endef
 # --------------------------------------------------
 # Targets
 # --------------------------------------------------
-.PHONY: report-generate results-meshery-sync report-open report
+.PHONY: report-generate meshery-results-sync mesheryctl-results-sync report-open report
 
 ## Sync Meshery Test Results
 meshery-results-sync: 
 	@echo "Syncing Meshery Test Results..."
 	$(call results-sync,MESHERY_RESULTS_PATH,meshery-results)
+
+## Sync mesheryctl Test Results
+mesheryctl-results-sync: 
+	@echo "Syncing mesheryctl Test Results..."
+	$(call results-sync,MESHERYCTL_RESULTS_PATH,mesheryctl-results)
 
 
 ## Setup environment; Install prequisites
@@ -52,6 +57,7 @@ report-build:
 	mkdir -p allure-results
 	cp kanvas-results/* allure-results/ || true
 	cp meshery-results/* allure-results/ || true
+	cp mesheryctl-results/* allure-results/ || true
 	cp remote-provider-results/* allure-results/ || true
 	npm run report:generate
 
@@ -66,7 +72,7 @@ report: report-build
 # EXTENSION POINT (see https://docs.meshery.io/extensibility)
 # OPEN AN ISSUE TO ADD YOUR EXTENSION HERE
 # --------------------------------------------------
-.PHONY: results-kanvas-sync remote-provider-results-sync 
+.PHONY: results-kanvas-sync remote-provider-results-sync
 
 ## Sync Kanvas Test Results
 results-kanvas-sync: 
