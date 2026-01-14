@@ -1,0 +1,154 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button "Dashboard" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - button "Configuration" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e40]: Configuration
+          - generic [ref=e41]:
+            - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+              - generic [ref=e43]:
+                - img "meshery-button-2" [ref=e45]
+                - generic [ref=e71]: Performance
+            - list [ref=e75]:
+              - button "Profiles" [active] [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]:
+                  - img [ref=e80]
+                  - generic [ref=e83]: Profiles
+          - button "Extensions" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]:
+              - img [ref=e88]
+              - generic [ref=e115]: Extensions
+          - separator [ref=e116]
+          - list [ref=e117]:
+            - button "Kanvas" [ref=e118] [cursor=pointer]:
+              - generic [ref=e120]:
+                - img [ref=e122]
+                - generic [ref=e124]: Kanvas
+          - separator [ref=e125]
+        - generic [ref=e126]:
+          - img [ref=e129] [cursor=pointer]
+          - group [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Document Text" [ref=e133] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img "Document Text" [ref=e135]
+            - listitem [ref=e138]:
+              - link [ref=e139] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e141]
+            - listitem [ref=e144]:
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e147]
+            - listitem [ref=e149]:
+              - link [ref=e150] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e152]
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - text: v0.8.197
+              - link [ref=e160] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.197
+                - img [ref=e161]
+              - generic [ref=e163]:
+                - text: Update available
+                - link [ref=e164] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v0.8.196
+                  - img [ref=e165]
+    - generic [ref=e167]:
+      - banner [ref=e168]:
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - button [ref=e174] [cursor=pointer]:
+              - img [ref=e175]
+            - text: /
+            - button [ref=e184] [cursor=pointer]:
+              - img [ref=e185]
+            - group [ref=e189]:
+              - generic [ref=e194]:
+                - combobox [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading "Profiles" [level=5] [ref=e197]
+          - generic [ref=e199]:
+            - button "contexts" [ref=e202] [cursor=pointer]:
+              - generic [ref=e203]:
+                - img [ref=e204]
+                - generic [ref=e205]: "3123"
+            - button [ref=e208] [cursor=pointer]:
+              - img [ref=e209]
+            - button [ref=e216] [cursor=pointer]:
+              - img [ref=e218]
+            - button [ref=e221] [cursor=pointer]:
+              - img [ref=e222]
+      - generic [ref=e224]:
+        - main [ref=e225]:
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - button "Add Performance Profile" [disabled]:
+                  - img
+              - generic [ref=e229]:
+                - generic [ref=e230]:
+                  - generic:
+                    - generic:
+                      - textbox "Search Profiles..."
+                  - button [ref=e232] [cursor=pointer]:
+                    - img [ref=e233]
+                - button "Switch View" [ref=e235] [cursor=pointer]:
+                  - img [ref=e237]
+            - generic [ref=e243] [cursor=pointer]:
+              - generic [ref=e244]:
+                - generic [ref=e245]: Fortio-Perf-Test
+                - img "load-generator" [ref=e246]
+              - generic [ref=e248]:
+                - generic [ref=e249]: "1"
+                - generic [ref=e250]: Results
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - link [ref=e253]:
+                    - /url: https://cloud.layer5.io/user/7de78360-d434-4866-9a55-4bd20da66a9c
+                    - img [ref=e255]
+                  - generic [ref=e258]: "Last Run: January 14, 2026 2:02 AM"
+                - generic [ref=e259]:
+                  - button "View Results" [ref=e260]
+                  - button "Edit Profile" [ref=e261]
+                  - button "Run Test" [ref=e262]
+            - navigation "pagination navigation" [ref=e264]:
+              - list [ref=e265]:
+                - listitem [ref=e266]:
+                  - button "Go to previous page" [disabled]:
+                    - img
+                - listitem [ref=e267]:
+                  - button "page 1" [ref=e268] [cursor=pointer]: "1"
+                - listitem [ref=e269]:
+                  - button "Go to next page" [disabled]:
+                    - img
+        - contentinfo [ref=e270]:
+          - paragraph [ref=e271]:
+            - generic [ref=e272] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e273]
+              - text: by the Meshery Community
+  - alert [ref=e275]: Meshery
+```

@@ -1,0 +1,249 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - generic [ref=e23]:
+            - button [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]:
+                - img [ref=e27]
+                - generic [ref=e30]: Lifecycle
+            - list [ref=e34]:
+              - button [ref=e36] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img [ref=e39]
+                  - generic [ref=e41]: Connections
+              - button [ref=e43] [cursor=pointer]:
+                - generic [ref=e44]:
+                  - img [ref=e46]
+                  - generic [ref=e48]: Environments
+              - button [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - img [ref=e53]
+                  - generic [ref=e55]: Workspaces
+              - button [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - img [ref=e60]
+                  - generic [ref=e73]: Adapters
+          - button [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]:
+              - img [ref=e78]
+              - generic [ref=e83]: Configuration
+          - button [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]:
+              - img [ref=e88]
+              - generic [ref=e114]: Performance
+          - button [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]:
+              - img [ref=e119]
+              - generic [ref=e146]: Extensions
+          - separator [ref=e147]
+        - generic [ref=e148]:
+          - img [ref=e151] [cursor=pointer]
+          - group [ref=e153]:
+            - listitem [ref=e154]:
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e157]
+            - listitem [ref=e160]:
+              - link [ref=e161] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e163]
+            - listitem [ref=e166]:
+              - link [ref=e167] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e169]
+            - listitem [ref=e171]:
+              - link [ref=e172] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e174]
+          - listitem [ref=e179]:
+            - generic [ref=e180]:
+              - text: v0.8.197
+              - link [ref=e182] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.197
+                - img [ref=e183]
+              - generic [ref=e185]:
+                - text: Update available
+                - link [ref=e186] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v0.8.196
+                  - img [ref=e187]
+    - generic [ref=e189]:
+      - banner [ref=e190]:
+        - generic [ref=e192]:
+          - generic [ref=e194]:
+            - button [ref=e196] [cursor=pointer]:
+              - img [ref=e197]
+            - text: /
+            - button [ref=e206] [cursor=pointer]:
+              - img [ref=e207]
+            - text: /
+            - heading [level=5] [ref=e211]: Connections
+          - generic [ref=e213]:
+            - button [ref=e216] [cursor=pointer]:
+              - generic [ref=e217]:
+                - img [ref=e218]
+                - generic [ref=e219]: "0"
+            - button [ref=e222] [cursor=pointer]:
+              - img [ref=e223]
+            - button [ref=e230] [cursor=pointer]:
+              - img [ref=e232]
+            - button [ref=e235] [cursor=pointer]:
+              - img [ref=e236]
+      - generic [ref=e238]:
+        - main [ref=e239]:
+          - generic [ref=e240]:
+            - tablist [ref=e244]:
+              - tab [selected] [ref=e245] [cursor=pointer]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Connections
+                  - img [ref=e248]
+              - tab [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: MeshSync
+                  - img [ref=e285]
+            - generic [ref=e295]:
+              - button [ref=e298] [cursor=pointer]:
+                - img [ref=e299]
+                - paragraph [ref=e302]: Add Cluster
+              - generic [ref=e303]:
+                - generic [ref=e305]:
+                  - textbox [ref=e308]:
+                    - /placeholder: Search Connections...
+                    - text: kind-kind-cluster
+                  - button [ref=e310] [cursor=pointer]:
+                    - img [ref=e311]
+                - button [ref=e316] [cursor=pointer]:
+                  - img [ref=e317]
+                - button [ref=e322] [cursor=pointer]:
+                  - img [ref=e323]
+            - generic [ref=e325]:
+              - grid [ref=e327]:
+                - caption [ref=e328]
+                - rowgroup [ref=e329]:
+                  - row [ref=e330]:
+                    - columnheader [ref=e331]:
+                      - generic [ref=e333] [cursor=pointer]:
+                        - checkbox [ref=e334]
+                        - img [ref=e335]
+                    - columnheader [ref=e337]:
+                      - generic [ref=e338]:
+                        - paragraph [ref=e340]: Name
+                        - button [ref=e341] [cursor=pointer]:
+                          - img [ref=e342]
+                    - columnheader [ref=e344]:
+                      - generic [ref=e346]:
+                        - paragraph [ref=e347]: Environments
+                        - button [ref=e349] [cursor=pointer]:
+                          - img [ref=e350]
+                    - columnheader [ref=e352]:
+                      - generic [ref=e353]:
+                        - paragraph [ref=e355]: Kind
+                        - button [ref=e356] [cursor=pointer]:
+                          - img [ref=e357]
+                    - columnheader [ref=e359]:
+                      - generic [ref=e360]:
+                        - paragraph [ref=e362]: Category
+                        - button [ref=e363] [cursor=pointer]:
+                          - img [ref=e364]
+                    - columnheader [ref=e366]:
+                      - generic [ref=e367]:
+                        - generic [ref=e368]:
+                          - paragraph [ref=e369]: Status
+                          - button [ref=e371] [cursor=pointer]:
+                            - img [ref=e372]
+                        - button [ref=e374] [cursor=pointer]:
+                          - img [ref=e375]
+                    - columnheader [ref=e377]: Actions
+                - rowgroup [ref=e378]:
+                  - row [ref=e379] [cursor=pointer]:
+                    - gridcell [ref=e380]:
+                      - generic [ref=e382]:
+                        - checkbox [ref=e383]
+                        - img [ref=e384]
+                    - gridcell [ref=e386]:
+                      - generic [ref=e387]:
+                        - button [ref=e389]:
+                          - img [ref=e393]
+                          - generic [ref=e395]: kind-kind-cluster
+                          - img [ref=e396]
+                        - button [ref=e399]:
+                          - img [ref=e400]
+                    - gridcell [ref=e402]:
+                      - generic [ref=e407]:
+                        - log [ref=e409]
+                        - generic [ref=e410]:
+                          - generic [ref=e411]:
+                            - generic [ref=e412]: Assigned Environments
+                            - combobox [ref=e414]
+                          - img [ref=e418]
+                    - gridcell [ref=e420]:
+                      - generic [ref=e421]: kubernetes
+                    - gridcell [ref=e422]:
+                      - generic [ref=e423]: platform
+                    - gridcell [ref=e424]:
+                      - generic [ref=e427]:
+                        - combobox [expanded] [ref=e428]:
+                          - menuitem [ref=e429]:
+                            - generic [ref=e430]:
+                              - img [ref=e431]
+                              - generic [ref=e433]: connected
+                        - textbox: connected
+                        - img
+                        - group
+                    - gridcell [ref=e434]:
+                      - button [ref=e437]:
+                        - img [ref=e438]
+              - table [ref=e440]:
+                - rowgroup [ref=e441]:
+                  - row [ref=e442]:
+                    - cell [ref=e443]:
+                      - generic [ref=e446]:
+                        - paragraph [ref=e447]: "Rows per page:"
+                        - generic [ref=e448]:
+                          - combobox [ref=e449] [cursor=pointer]: "10"
+                          - textbox: "10"
+                          - img
+                        - paragraph [ref=e450]: 1-1 of 1
+                        - generic [ref=e451]:
+                          - button [disabled]:
+                            - img
+                          - button [disabled]:
+                            - img
+        - contentinfo [ref=e453]:
+          - paragraph [ref=e454]:
+            - generic [ref=e455] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e456]
+              - text: by the Meshery Community
+      - generic:
+        - generic [ref=e462]:
+          - img [ref=e463]
+          - paragraph [ref=e465]: MeshSync connected in embedded mode
+          - group [ref=e467]:
+            - button [ref=e468] [cursor=pointer]:
+              - img [ref=e469]
+            - button [ref=e473] [cursor=pointer]:
+              - img [ref=e474]
+        - generic [ref=e480]:
+          - img [ref=e481]
+          - paragraph [ref=e483]: MeshSync connected in embedded mode
+          - group [ref=e485]:
+            - button [ref=e486] [cursor=pointer]:
+              - img [ref=e487]
+            - button [ref=e491] [cursor=pointer]:
+              - img [ref=e492]
+  - alert [ref=e494]: Meshery
+  - generic [ref=e496]:
+    - listbox [active]
+```
