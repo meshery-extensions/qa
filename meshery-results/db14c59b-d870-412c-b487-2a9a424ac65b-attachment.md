@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button "Dashboard" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - generic [ref=e31]:
+            - button "Configuration" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+            - list [ref=e44]:
+              - generic [ref=e45]:
+                - button "Catalog" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: Catalog
+              - button "pattern_trans Designs" [ref=e47] [cursor=pointer]:
+                - generic [ref=e48]:
+                  - img "pattern_trans" [ref=e50]
+                  - generic [ref=e62]: Designs
+          - button "meshery-button-2 Performance" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]:
+              - img "meshery-button-2" [ref=e67]
+              - generic [ref=e93]: Performance
+          - button "Extensions" [ref=e95] [cursor=pointer]:
+            - generic [ref=e96]:
+              - img [ref=e98]
+              - generic [ref=e125]: Extensions
+          - separator [ref=e126]
+        - generic [ref=e127]:
+          - img [ref=e130] [cursor=pointer]
+          - group [ref=e132]:
+            - listitem [ref=e133]:
+              - link "Document Text" [ref=e134] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img "Document Text" [ref=e136]
+            - listitem [ref=e139]:
+              - link [ref=e140] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e142]
+            - listitem [ref=e145]:
+              - link [ref=e146] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e148]
+            - listitem [ref=e150]:
+              - link [ref=e151] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e153]
+          - listitem [ref=e158]:
+            - generic [ref=e159]:
+              - text: v0.8.198
+              - link [ref=e161] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.198
+                - img [ref=e162]
+              - text: Running latest
+    - generic [ref=e164]:
+      - banner [ref=e165]:
+        - generic [ref=e167]:
+          - generic [ref=e169]:
+            - button [ref=e171] [cursor=pointer]:
+              - img [ref=e172]
+            - text: /
+            - button [ref=e181] [cursor=pointer]:
+              - img [ref=e182]
+            - text: /
+            - heading "Configure Design" [level=5] [ref=e186]
+          - generic [ref=e188]:
+            - button "contexts" [ref=e191] [cursor=pointer]:
+              - generic [ref=e192]:
+                - img [ref=e193]
+                - generic [ref=e194]: "0"
+            - button [ref=e197] [cursor=pointer]:
+              - img [ref=e198]
+            - button [ref=e205] [cursor=pointer]:
+              - img [ref=e207]
+            - button [ref=e210] [cursor=pointer]:
+              - img [ref=e211]
+      - generic [ref=e213]:
+        - main [ref=e214]:
+          - alert [ref=e216]:
+            - heading "Uh-oh!😔 Please pardon the mesh." [level=2] [ref=e217]
+            - generic [ref=e218]:
+              - code [ref=e219]:
+                - strong [ref=e220]: "Error:"
+                - text: n is not a function
+              - strong [ref=e221]: "Version:"
+            - paragraph [ref=e222]:
+              - text: We apologize for the inconvenience. The issue may be on our end. If troubleshooting doesn't work, please check out our support channels
+              - link "Discuss Forum" [ref=e223] [cursor=pointer]:
+                - /url: https://discuss.layer5.io/
+              - text: or
+              - link "Slack" [ref=e224] [cursor=pointer]:
+                - /url: https://slack.layer5.io/
+            - button "Try Again" [ref=e226] [cursor=pointer]:
+              - generic [ref=e227]: Try Again
+        - contentinfo [ref=e228]:
+          - paragraph [ref=e229]:
+            - generic [ref=e230] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e231]
+              - text: by the Meshery Community
+  - alert [ref=e233]: Meshery
+```

@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button "Dashboard" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - button "Configuration" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e40]: Configuration
+          - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img "meshery-button-2" [ref=e45]
+              - generic [ref=e71]: Performance
+          - button "Extensions" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e103]: Extensions
+          - separator [ref=e104]
+        - generic [ref=e105]:
+          - img [ref=e108] [cursor=pointer]
+          - group [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Document Text" [ref=e112] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img "Document Text" [ref=e114]
+            - listitem [ref=e117]:
+              - link [ref=e118] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e120]
+            - listitem [ref=e123]:
+              - link [ref=e124] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e126]
+            - listitem [ref=e128]:
+              - link [ref=e129] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e131]
+          - listitem [ref=e136]:
+            - generic [ref=e137]:
+              - text: v0.8.198
+              - link [ref=e139] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.198
+                - img [ref=e140]
+              - text: Running latest
+    - generic [ref=e142]:
+      - banner [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e147]:
+            - button [ref=e149] [cursor=pointer]:
+              - img [ref=e150]
+            - text: /
+            - button [ref=e159] [cursor=pointer]:
+              - img [ref=e160]
+            - text: /
+            - heading "Settings" [level=5] [ref=e164]
+          - generic [ref=e166]:
+            - button "contexts" [ref=e169] [cursor=pointer]:
+              - generic [ref=e170]:
+                - img [ref=e171]
+                - generic [ref=e172]: "0"
+            - button [ref=e175] [cursor=pointer]:
+              - img [ref=e176]
+            - button [ref=e183] [cursor=pointer]:
+              - img [ref=e185]
+            - button [active] [ref=e188] [cursor=pointer]:
+              - img [ref=e189]
+      - generic [ref=e191]:
+        - main [ref=e192]:
+          - alert [ref=e194]:
+            - heading "Uh-oh!😔 Please pardon the mesh." [level=2] [ref=e195]
+            - generic [ref=e196]:
+              - code [ref=e197]:
+                - strong [ref=e198]: "Error:"
+                - text: n is not a function
+              - strong [ref=e199]: "Version:"
+            - paragraph [ref=e200]:
+              - text: We apologize for the inconvenience. The issue may be on our end. If troubleshooting doesn't work, please check out our support channels
+              - link "Discuss Forum" [ref=e201] [cursor=pointer]:
+                - /url: https://discuss.layer5.io/
+              - text: or
+              - link "Slack" [ref=e202] [cursor=pointer]:
+                - /url: https://slack.layer5.io/
+            - button "Try Again" [ref=e204] [cursor=pointer]:
+              - generic [ref=e205]: Try Again
+        - contentinfo [ref=e206]:
+          - paragraph [ref=e207]:
+            - generic [ref=e208] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e209]
+              - text: by the Meshery Community
+      - generic [ref=e215]:
+        - img [ref=e216]
+        - paragraph [ref=e218]: MeshSync connected in embedded mode
+        - group [ref=e220]:
+          - button "Open" [ref=e221] [cursor=pointer]:
+            - img [ref=e222]
+          - button "Close" [ref=e226] [cursor=pointer]:
+            - img [ref=e227]
+  - alert [ref=e229]: Meshery
+```

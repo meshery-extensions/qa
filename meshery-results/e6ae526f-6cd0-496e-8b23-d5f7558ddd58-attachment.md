@@ -1,0 +1,177 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button "Dashboard" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - generic [ref=e31]:
+            - button "Configuration" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+            - list [ref=e44]:
+              - button "Catalog" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]:
+                  - img [ref=e49]
+                  - generic [ref=e55]: Catalog
+              - button "pattern_trans Designs" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - img "pattern_trans" [ref=e60]
+                  - generic [ref=e72]: Designs
+          - button "meshery-button-2 Performance" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - img "meshery-button-2" [ref=e77]
+              - generic [ref=e103]: Performance
+          - button "Extensions" [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]:
+              - img [ref=e108]
+              - generic [ref=e135]: Extensions
+          - separator [ref=e136]
+          - list [ref=e137]:
+            - button "Kanvas" [ref=e138] [cursor=pointer]:
+              - generic [ref=e140]:
+                - img [ref=e142]
+                - generic [ref=e144]: Kanvas
+          - separator [ref=e145]
+        - generic [ref=e146]:
+          - img [ref=e149] [cursor=pointer]
+          - group [ref=e151]:
+            - listitem [ref=e152]:
+              - link "Document Text" [ref=e153] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img "Document Text" [ref=e155]
+            - listitem [ref=e158]:
+              - link [ref=e159] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e161]
+            - listitem [ref=e164]:
+              - link [ref=e165] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e167]
+            - listitem [ref=e169]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e172]
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - text: v0.8.198
+              - link [ref=e180] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.198
+                - img [ref=e181]
+              - text: Running latest
+    - generic [ref=e183]:
+      - banner [ref=e184]:
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - button [ref=e190] [cursor=pointer]:
+              - img [ref=e191]
+            - text: /
+            - button [ref=e200] [cursor=pointer]:
+              - img [ref=e201]
+            - group [ref=e205]:
+              - generic [ref=e210]:
+                - combobox [ref=e211] [cursor=pointer]:
+                  - generic [ref=e212]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading "Configure Design" [level=5] [ref=e213]
+          - generic [ref=e215]:
+            - button "contexts" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]:
+                - img [ref=e220]
+                - generic [ref=e221]: "3210"
+            - button [ref=e224] [cursor=pointer]:
+              - img [ref=e225]
+            - button [ref=e232] [cursor=pointer]:
+              - img [ref=e234]
+            - button [ref=e237] [cursor=pointer]:
+              - img [ref=e238]
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - alert [ref=e243]:
+            - heading "Uh-oh!😔 Please pardon the mesh." [level=2] [ref=e244]
+            - generic [ref=e245]:
+              - code [ref=e246]:
+                - strong [ref=e247]: "Error:"
+                - text: n is not a function
+              - strong [ref=e248]: "Version:"
+            - paragraph [ref=e249]:
+              - text: We apologize for the inconvenience. The issue may be on our end. If troubleshooting doesn't work, please check out our support channels
+              - link "Discuss Forum" [ref=e250] [cursor=pointer]:
+                - /url: https://discuss.layer5.io/
+              - text: or
+              - link "Slack" [ref=e251] [cursor=pointer]:
+                - /url: https://slack.layer5.io/
+            - generic [ref=e252]:
+              - button "Get Help" [ref=e254] [cursor=pointer]:
+                - generic [ref=e255]: Get Help
+              - button "Try Again" [ref=e256] [cursor=pointer]:
+                - generic [ref=e257]: Try Again
+              - generic:
+                - button "Feedback" [ref=e258] [cursor=pointer]
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - img [ref=e263]
+                    - paragraph [ref=e266]: Feedback
+                    - generic [ref=e267]:
+                      - img [ref=e270]
+                      - img [ref=e274] [cursor=pointer]
+                  - generic [ref=e278]:
+                    - generic [ref=e279]:
+                      - button "Issue" [ref=e280] [cursor=pointer]:
+                        - img [ref=e282]
+                        - paragraph [ref=e284]: Issue
+                      - button "Suggestion" [ref=e285] [cursor=pointer]:
+                        - img [ref=e287]
+                        - paragraph [ref=e293]: Suggestion
+                      - button "Meet Request" [ref=e294] [cursor=pointer]:
+                        - img [ref=e296]
+                        - paragraph [ref=e301]: Meet Request
+                    - textbox "I’m having an issue with..." [ref=e303]: "An error occurred on the page at http://localhost:9081/configuration/designs/configurator?design_id=397e88c7-38d9-4499-85b2-73696f0b195a on 1/17/2026, 3:13:05 AM. Error Details: n is not a function."
+                  - generic [ref=e305]:
+                    - generic [ref=e306]:
+                      - generic [ref=e307] [cursor=pointer]:
+                        - checkbox [checked] [ref=e308]
+                        - img [ref=e309]
+                      - paragraph [ref=e311]: We may email you for more information or updates
+                    - button "Send" [ref=e312] [cursor=pointer]
+        - contentinfo [ref=e313]:
+          - paragraph [ref=e314]:
+            - generic [ref=e315] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e316]
+              - text: by the Meshery Community
+      - generic:
+        - generic [ref=e322]:
+          - img [ref=e323]
+          - paragraph [ref=e325]: MeshSync connected in embedded mode
+          - group [ref=e327]:
+            - button "Open" [ref=e328] [cursor=pointer]:
+              - img [ref=e329]
+            - button "Close" [ref=e333] [cursor=pointer]:
+              - img [ref=e334]
+        - generic [ref=e340]:
+          - img [ref=e341]
+          - paragraph [ref=e343]: MeshSync connected in embedded mode
+          - group [ref=e345]:
+            - button "Open" [ref=e346] [cursor=pointer]:
+              - img [ref=e347]
+            - button "Close" [ref=e351] [cursor=pointer]:
+              - img [ref=e352]
+  - alert [ref=e354]: Meshery
+```
