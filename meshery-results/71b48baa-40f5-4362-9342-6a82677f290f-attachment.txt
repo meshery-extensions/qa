@@ -1,1 +1,0 @@
-Total relationship failures for meshery-design-fixture.json: 0

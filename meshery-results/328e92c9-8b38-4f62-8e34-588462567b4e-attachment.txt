@@ -1,1 +1,0 @@
-Total relationship failures for deployment-configmap-reference-relationship: 0

@@ -1,1 +1,0 @@
-Total relationship failures for hierarchical-parent-namespace-relationship: 0
