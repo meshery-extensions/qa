@@ -1,0 +1,141 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e5]
+    - heading [level=1] [ref=e37]: "YAML: The embodiment of entropy in the digital world."
+  - generic [ref=e39]:
+    - navigation [ref=e40]:
+      - generic [ref=e43]:
+        - generic [ref=e45] [cursor=pointer]:
+          - img [ref=e46]
+          - img [ref=e47]
+        - list [ref=e48]:
+          - button [ref=e50] [cursor=pointer]:
+            - img [ref=e53]
+          - button [ref=e58] [cursor=pointer]:
+            - img [ref=e61]
+          - button [ref=e64] [cursor=pointer]:
+            - img [ref=e67]
+          - button [ref=e72] [cursor=pointer]:
+            - img [ref=e75]
+          - button [ref=e101] [cursor=pointer]:
+            - img [ref=e104]
+          - separator [ref=e130]
+          - list [ref=e131]:
+            - button [ref=e132] [cursor=pointer]:
+              - img [ref=e136]
+          - separator [ref=e137]
+        - generic [ref=e138]:
+          - img [ref=e141] [cursor=pointer]
+          - group [ref=e143]:
+            - listitem [ref=e144]:
+              - button [ref=e145] [cursor=pointer]:
+                - img [ref=e146]
+          - listitem [ref=e148]:
+            - generic [ref=e149]: v0.8.199-1
+    - generic [ref=e150]:
+      - banner [ref=e151]:
+        - generic [ref=e153]:
+          - generic [ref=e155]:
+            - button [ref=e157] [cursor=pointer]:
+              - img [ref=e158]
+            - text: /
+            - button [ref=e167] [cursor=pointer]:
+              - img [ref=e168]
+            - group [ref=e172]:
+              - generic [ref=e177]:
+                - combobox [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179]: My other workspace
+                - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                - img
+                - group
+            - text: /
+            - heading [level=5] [ref=e180]:
+              - text: Kanvas
+              - superscript [ref=e181]: BETA
+          - generic [ref=e183]:
+            - button [ref=e186] [cursor=pointer]:
+              - generic [ref=e187]:
+                - img [ref=e188]
+                - generic [ref=e189]: "2"
+            - button [ref=e192] [cursor=pointer]:
+              - generic [ref=e193]:
+                - img [ref=e194]
+                - generic [ref=e197]: "59"
+            - button [ref=e201] [cursor=pointer]:
+              - img [ref=e203]
+            - button [ref=e205] [cursor=pointer]:
+              - img [ref=e206]
+      - main [ref=e209]:
+        - alert [ref=e210]:
+          - heading [level=2] [ref=e211]: Uh-oh!😔 Please pardon our mesh.
+          - code [ref=e213]: "Error: Could not require '@microlink/react-json-view'. '@microlink/react-json-view' does not exist in dependencies."
+          - generic [ref=e215]:
+            - button [ref=e216] [cursor=pointer]: Troubleshooting Guide
+            - button [ref=e217] [cursor=pointer]: Get Help
+            - button [ref=e218] [cursor=pointer]: Feedback
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - img [ref=e223]
+                - paragraph [ref=e226]: Feedback
+                - generic [ref=e227]:
+                  - img [ref=e230]
+                  - img [ref=e234] [cursor=pointer]
+              - generic [ref=e238]:
+                - generic [ref=e239]:
+                  - button [ref=e240] [cursor=pointer]:
+                    - img [ref=e242]
+                    - paragraph [ref=e244]: Issue
+                  - button [ref=e245] [cursor=pointer]:
+                    - img [ref=e247]
+                    - paragraph [ref=e253]: Suggestion
+                  - button [ref=e254] [cursor=pointer]:
+                    - img [ref=e256]
+                    - paragraph [ref=e261]: Meet Request
+                - textbox [ref=e263]:
+                  - /placeholder: I’m having an issue with...
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - generic [ref=e267] [cursor=pointer]:
+                    - checkbox [ref=e268]
+                    - img [ref=e269]
+                  - paragraph [ref=e271]: We may email you for more information or updates
+                - button [disabled]: Send
+  - alert [ref=e272]
+  - generic [active] [ref=e274]:
+    - dialog:
+      - generic [ref=e276]:
+        - paragraph [ref=e277]:
+          - heading [level=5]
+          - heading "Extensions Troubleshooting Guide" [level=5] [ref=e278]
+          - button [ref=e279] [cursor=pointer]:
+            - img [ref=e280]
+        - heading "Stale Data" [level=3] [ref=e283]:
+          - button "Stale Data" [ref=e284] [cursor=pointer]:
+            - generic [ref=e286]:
+              - img [ref=e287]
+              - heading "Stale Data" [level=6] [ref=e290]
+            - img [ref=e292]
+        - heading "Missing Data" [level=3] [ref=e295]:
+          - button "Missing Data" [ref=e296] [cursor=pointer]:
+            - generic [ref=e298]:
+              - img [ref=e299]
+              - heading "Missing Data" [level=6] [ref=e302]
+            - img [ref=e304]
+        - heading "Additional Resources" [level=3] [ref=e307]:
+          - button "Additional Resources" [ref=e308] [cursor=pointer]:
+            - generic [ref=e310]:
+              - img [ref=e311]
+              - heading "Additional Resources" [level=6] [ref=e314]
+            - img [ref=e316]
+        - heading "Need help? Contact us via email or community forum." [level=6] [ref=e319]:
+          - text: Need help? Contact us via
+          - link "email" [ref=e320] [cursor=pointer]:
+            - /url: mailto:maintainers@meshery.io
+          - text: or
+          - link "community forum" [ref=e321] [cursor=pointer]:
+            - /url: https://meshery.io/community#community-forums
+          - text: .
+```
