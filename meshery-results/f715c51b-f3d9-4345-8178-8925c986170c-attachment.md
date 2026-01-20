@@ -1,0 +1,175 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "meshery-logo-light-text" [ref=e5]
+    - heading [level=1]
+  - generic [ref=e38]:
+    - navigation [ref=e39]:
+      - generic [ref=e42]:
+        - generic [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+          - img [ref=e46]
+        - list [ref=e47]:
+          - button "Dashboard" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - generic [ref=e57]: Dashboard
+          - button "Lifecycle" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - generic [ref=e65]: Lifecycle
+          - button "Configuration" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e75]: Configuration
+          - button "meshery-button-2 Performance" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]:
+              - img "meshery-button-2" [ref=e80]
+              - generic [ref=e106]: Performance
+          - button "Extensions" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]:
+              - img [ref=e111]
+              - generic [ref=e138]: Extensions
+          - separator [ref=e139]
+        - generic [ref=e140]:
+          - img [ref=e143] [cursor=pointer]
+          - group [ref=e145]:
+            - listitem [ref=e146]:
+              - link "Document Text" [ref=e147] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img "Document Text" [ref=e149]
+            - listitem [ref=e152]:
+              - link [ref=e153] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e155]
+            - listitem [ref=e158]:
+              - link [ref=e159] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e161]
+            - listitem [ref=e163]:
+              - link [ref=e164] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e166]
+          - listitem [ref=e171]:
+            - generic [ref=e172]:
+              - text: v0.8.200
+              - link [ref=e174] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.200
+                - img [ref=e175]
+              - text: Running latest
+    - generic [ref=e177]:
+      - banner [ref=e178]:
+        - generic [ref=e180]:
+          - generic [ref=e182]:
+            - button [ref=e184] [cursor=pointer]:
+              - img [ref=e185]
+            - text: /
+            - button [ref=e194] [cursor=pointer]:
+              - img [ref=e195]
+            - text: /
+            - heading "Dashboard" [level=5] [ref=e199]
+          - generic [ref=e201]:
+            - button "contexts" [ref=e204] [cursor=pointer]:
+              - generic [ref=e205]:
+                - img [ref=e206]
+                - generic [ref=e207]: "0"
+            - button [ref=e210] [cursor=pointer]:
+              - img [ref=e211]
+            - button [ref=e218] [cursor=pointer]:
+              - img [ref=e220]
+            - button [ref=e223] [cursor=pointer]:
+              - img [ref=e224]
+      - generic [ref=e226]:
+        - main [ref=e227]:
+          - tablist [ref=e231]:
+            - tab "Overview" [selected] [ref=e232] [cursor=pointer]:
+              - img [ref=e233]
+              - text: Overview
+            - tab "Node" [ref=e258] [cursor=pointer]:
+              - img [ref=e259]
+              - text: Node
+            - tab "Namespace" [ref=e265] [cursor=pointer]:
+              - img [ref=e266]
+              - text: Namespace
+            - tab "Workload" [ref=e272] [cursor=pointer]:
+              - img [ref=e273]
+              - text: Workload
+            - tab "Configuration" [ref=e279] [cursor=pointer]:
+              - img [ref=e280]
+              - text: Configuration
+            - tab "Network" [ref=e286] [cursor=pointer]:
+              - img [ref=e287]
+              - text: Network
+            - tab "Security" [ref=e293] [cursor=pointer]:
+              - img [ref=e294]
+              - text: Security
+            - tab "Storage" [ref=e300] [cursor=pointer]:
+              - img [ref=e301]
+              - text: Storage
+            - tab "CRDS" [ref=e307] [cursor=pointer]:
+              - img [ref=e308]
+              - text: CRDS
+          - tabpanel [ref=e315]:
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e323]:
+                  - heading "No clusters available. Please connect your clusters to proceed." [level=5] [ref=e324]
+                  - button "Connect Clusters" [ref=e325] [cursor=pointer]:
+                    - img [ref=e326]
+                    - text: Connect Clusters
+                - generic [ref=e330]:
+                  - generic [ref=e331]:
+                    - img [ref=e332]
+                    - heading "LATEST BLOGS" [level=6] [ref=e334]
+                  - list [ref=e336]:
+                    - listitem [ref=e337]:
+                      - img [ref=e339]
+                      - link "The Meshery Umbrella Expands" [ref=e348] [cursor=pointer]:
+                        - /url: https://meshery.io/blog/2025/meshery-ecosystem-expansion
+                      - superscript [ref=e349]:
+                        - img [ref=e350]
+                    - listitem [ref=e352]:
+                      - img [ref=e354]
+                      - link "Meshery, the Rocket Ship" [ref=e363] [cursor=pointer]:
+                        - /url: https://meshery.io/blog/sixth-highest-velocity-cncf-project
+                      - superscript [ref=e364]:
+                        - img [ref=e365]
+                    - listitem [ref=e367]:
+                      - img [ref=e369]
+                      - link "Meshery CLI Commands for Organization, Workspaces, and Connections" [ref=e378] [cursor=pointer]:
+                        - /url: https://meshery.io/blog/2025/11/2025-10-31-mesheryctl-new-cmds-org-workspace/
+                      - superscript [ref=e379]:
+                        - img [ref=e380]
+                    - listitem [ref=e382]:
+                      - img [ref=e384]
+                      - link "Mesheryctl End-To-End Testing Introduction" [ref=e393] [cursor=pointer]:
+                        - /url: https://meshery.io/blog/2025/10/2025-10-30-mesehryctl-e2e-test-introduction/
+                      - superscript [ref=e394]:
+                        - img [ref=e395]
+                    - listitem [ref=e397]:
+                      - img [ref=e399]
+                      - link "mesheryctl model init and build explained" [ref=e408] [cursor=pointer]:
+                        - /url: https://meshery.io/blog/2025/10/2025-10-29-mesheryctl-model-init/
+                      - superscript [ref=e409]:
+                        - img [ref=e410]
+              - button "Edit" [ref=e412] [cursor=pointer]:
+                - generic [ref=e413]: Edit
+                - img [ref=e415]
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - heading "Visual design and operation" [level=6] [ref=e419]
+              - button "Close" [ref=e421] [cursor=pointer]:
+                - img [ref=e422]
+            - img "pop-up" [ref=e425]
+            - heading "Friends don't let friends GitOps alone. Visually design and collaborate in real-time with other Meshery users." [level=6] [ref=e426]
+            - button "Sign up" [ref=e429] [cursor=pointer]
+        - contentinfo [ref=e430]:
+          - paragraph [ref=e431]:
+            - generic [ref=e432] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e433]
+              - text: by the Meshery Community
+  - alert [ref=e435]
+```
