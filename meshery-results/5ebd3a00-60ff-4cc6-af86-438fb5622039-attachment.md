@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button "Dashboard" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - button "Configuration" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e40]: Configuration
+          - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img "meshery-button-2" [ref=e45]
+              - generic [ref=e71]: Performance
+          - button "Extensions" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e103]: Extensions
+          - separator [ref=e104]
+          - list [ref=e105]:
+            - button "Kanvas" [ref=e106] [cursor=pointer]:
+              - generic [ref=e108]:
+                - img [ref=e110]
+                - generic [ref=e112]: Kanvas
+          - separator [ref=e113]
+        - generic [ref=e114]:
+          - img [ref=e117] [cursor=pointer]
+          - group [ref=e119]:
+            - listitem [ref=e120]:
+              - link "Document Text" [ref=e121] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img "Document Text" [ref=e123]
+            - listitem [ref=e126]:
+              - link [ref=e127] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e129]
+            - listitem [ref=e132]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e135]
+            - listitem [ref=e137]:
+              - link [ref=e138] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e140]
+          - listitem [ref=e145]:
+            - generic [ref=e146]:
+              - text: v0.8.200
+              - link [ref=e148] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.200
+                - img [ref=e149]
+              - text: Running latest
+    - generic [ref=e151]:
+      - banner [ref=e152]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - button [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+            - text: /
+            - button [ref=e168] [cursor=pointer]:
+              - img [ref=e169]
+            - group [ref=e173]:
+              - generic [ref=e178]:
+                - combobox [ref=e179] [cursor=pointer]:
+                  - generic [ref=e180]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading [level=5]
+          - generic [ref=e182]:
+            - button "contexts" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186]:
+                - img [ref=e187]
+                - generic [ref=e188]: "3406"
+            - button [ref=e191] [cursor=pointer]:
+              - img [ref=e192]
+            - button [ref=e199] [cursor=pointer]:
+              - img [ref=e201]
+            - button [ref=e204] [cursor=pointer]:
+              - img [ref=e205]
+      - generic [ref=e207]:
+        - main [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - heading "Collaborative management enabled" [level=6] [ref=e211]
+              - button "Close" [ref=e213] [cursor=pointer]:
+                - img [ref=e214]
+            - img "pop-up" [ref=e217]
+            - heading "Friends don't let friends GitOps alone. Visually design and collaborate in real-time with other Meshery users." [level=6] [ref=e218]
+            - button "Open Kanvas" [ref=e221] [cursor=pointer]
+        - contentinfo [ref=e222]:
+          - paragraph [ref=e223]:
+            - generic [ref=e224] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e225]
+              - text: by the Meshery Community
+      - generic [ref=e231]:
+        - img [ref=e232]
+        - paragraph [ref=e234]: Status of 'Test Model 1769130302764' updated to ignored.
+        - group [ref=e236]:
+          - button "Open" [ref=e237] [cursor=pointer]:
+            - img [ref=e238]
+          - button "Close" [ref=e242] [cursor=pointer]:
+            - img [ref=e243]
+  - alert [ref=e245]
+```

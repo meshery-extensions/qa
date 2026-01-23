@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "meshery-logo-light-text" [ref=e5]
+    - 'heading "YAML: embrace the nihilism." [level=1] [ref=e37]'
+  - generic [ref=e38]:
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - img "Meshery logo" [ref=e42]
+          - img "Meshery logo text" [ref=e43]
+        - heading "Oops! It seems like you don't have the necessary permissions to view this page." [level=4] [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - heading "YOUR CURRENT SESSION" [level=5] [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - heading "Organization" [level=6] [ref=e51]
+                - generic [ref=e52]:
+                  - img [ref=e53]
+                  - generic [ref=e78]: My Organization
+              - generic [ref=e79]:
+                - heading "Organization Role(s)" [level=6] [ref=e80]
+                - generic [ref=e81]: No roles found
+              - generic [ref=e82]:
+                - heading "Provider Role(s)" [level=6] [ref=e83]
+                - generic [ref=e84]: No roles found
+          - separator [ref=e85]
+          - generic [ref=e86]:
+            - heading "YOUR OPTIONS" [level=5] [ref=e87]
+            - group [ref=e89]:
+              - heading "Switch Organization" [level=6] [ref=e90]
+              - generic [ref=e93]:
+                - combobox [ref=e94] [cursor=pointer]
+                - textbox: c5ada327-8a58-4c8a-b9fa-51b95696488c
+                - img
+                - group
+        - img [ref=e96]
+      - link "Return to Dashboard" [ref=e98] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e99]:
+        - text: For more help, please inquire on the
+        - link "discussion forum" [ref=e100] [cursor=pointer]:
+          - /url: https://meshery.io/community#community-forums
+        - text: or the
+        - link "Slack workspace" [ref=e101] [cursor=pointer]:
+          - /url: https://slack.meshery.io
+        - text: .
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - heading "Yikes. Things are a mesh here." [level=1] [ref=e104]
+        - heading "An error occurred while fetching your organization permissions" [level=5] [ref=e105]
+      - paragraph [ref=e106]:
+        - text: Start a conversation at the Meshery community
+        - link "discussion forum" [ref=e107] [cursor=pointer]:
+          - /url: https://meshery.io/community#community-forums/c/meshery/5
+        - text: .
+  - alert [ref=e108]
+```
