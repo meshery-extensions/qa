@@ -4,6 +4,7 @@ const PROJECTS = {
   KANVAS: "Kanvas",
   MESHERY: "Meshery",
   LAYER5_REMOTE_PROVIDER: "Layer5Cloud",
+  MESHERYCTL: "mesheryctl",
   // EXTENSION POINT (see https://docs.meshery.io/extensibility)
   // OPEN AN ISSUE TO ADD TEST RESULTS FROM YOUR EXTENSION HERE.
   // EXTENSION POINT
@@ -54,6 +55,17 @@ export default defineConfig({
         open: false,
         logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
         filter: ({ labels }) => isProject(labels, PROJECTS.MESHERY),
+      },
+    },
+    mesheryctl: {
+      import: "@allurereport/plugin-awesome",
+      options: {
+        reportName: "Mesheryctl",
+        singleFile: false,
+        reportLanguage: "en",
+        open: false,
+        logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
+        filter: ({ labels }) => isProject(labels, PROJECTS.MESHERYCTL),
       },
     },
     // EXTENSION POINT (see https://docs.meshery.io/extensibility)
