@@ -20,7 +20,7 @@ export default defineConfig({
   plugins: {
     dashboard: {
       options: {
-        singleFile: true,
+        singleFile: false,
         reportName: "Dashboard",
         reportLanguage: "en",
         logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
