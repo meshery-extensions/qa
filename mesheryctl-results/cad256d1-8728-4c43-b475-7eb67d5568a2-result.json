@@ -1,0 +1,25 @@
+{
+  "uuid": "cad256d1-8728-4c43-b475-7eb67d5568a2",
+  "name": "mesheryctl design import -f nginx.yaml displays imported and output the design Id",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769993480409,
+  "stop": 1769993480410,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/06-model-generate.bats, line 51)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: open /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-csv-dir: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-csv-dir.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "f150e2e7-1eee-4aea-9070-0e2fc2c00d19",
+  "name": "Error when no search query is provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769993480417,
+  "stop": 1769993480418,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
