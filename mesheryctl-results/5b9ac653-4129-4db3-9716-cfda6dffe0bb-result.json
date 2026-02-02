@@ -1,0 +1,23 @@
+{
+  "uuid": "5b9ac653-4129-4db3-9716-cfda6dffe0bb",
+  "name": "mesehry auth.json file as been created",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056568,
+  "stop": 1769998056569,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

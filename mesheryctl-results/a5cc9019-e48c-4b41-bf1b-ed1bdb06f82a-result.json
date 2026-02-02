@@ -1,0 +1,25 @@
+{
+  "uuid": "a5cc9019-e48c-4b41-bf1b-ed1bdb06f82a",
+  "name": "given all requirements met when running  mesheryctl connection --count then total number of available connections is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056579,
+  "stop": 1769998056580,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 006-registry/01-generate.bats, line 62)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (8 lines):\n  Error: [ Spreadsheet ID | Registrant Connection Definition Path | Local Directory | Individual CSV files ] isn't specified\n\n  Usage:\n  mesheryctl registry generate --spreadsheet-id [Spreadsheet ID] --spreadsheet-cred $CRED\n  mesheryctl registry generate --spreadsheet-id [Spreadsheet ID] --spreadsheet-cred $CRED --model \"[model-name]\"\n  mesheryctl registry generate --model-csv [path] --component-csv [path] --relationship-csv [path]\n  Run 'mesheryctl registry generate --help' to see detailed help message\n  See https://docs.meshery.io/reference/mesheryctl/registry/generate for usage details\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

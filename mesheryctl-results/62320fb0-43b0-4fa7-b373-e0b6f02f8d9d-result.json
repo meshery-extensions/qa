@@ -1,0 +1,23 @@
+{
+  "uuid": "62320fb0-43b0-4fa7-b373-e0b6f02f8d9d",
+  "name": "mesheryctl model search for non-existing model",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056571,
+  "stop": 1769998056572,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

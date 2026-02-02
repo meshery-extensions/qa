@@ -1,0 +1,23 @@
+{
+  "uuid": "91048b5e-c756-4d57-a8d5-41bf05222789",
+  "name": "mesheryctl model view supports JSON output",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056571,
+  "stop": 1769998056572,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "96499d13-ebc4-4856-9773-a0553fa8f4e8",
+  "name": "mesheryctl registry generate fails with directory missing required CSV files",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056579,
+  "stop": 1769998056580,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

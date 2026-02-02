@@ -1,0 +1,23 @@
+{
+  "uuid": "f3531503-e449-493c-ac68-c5f6395e997e",
+  "name": "mesheryctl perf profile returns message when profile is not found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056578,
+  "stop": 1769998056579,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

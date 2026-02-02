@@ -1,0 +1,23 @@
+{
+  "uuid": "c79cbc44-d976-478d-a603-25c9955864f5",
+  "name": "meshery config.yaml provider is Meshery",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056568,
+  "stop": 1769998056569,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

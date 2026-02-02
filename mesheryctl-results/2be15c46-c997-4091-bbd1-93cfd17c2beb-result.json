@@ -1,0 +1,23 @@
+{
+  "uuid": "2be15c46-c997-4091-bbd1-93cfd17c2beb",
+  "name": "meshery service is deployed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056569,
+  "stop": 1769998056570,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

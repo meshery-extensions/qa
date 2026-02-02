@@ -1,0 +1,23 @@
+{
+  "uuid": "491a9524-445c-45af-a128-feec82bf1714",
+  "name": "mesheryctl perf apply with URL and mesh istio runs successfully",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1769998056576,
+  "stop": 1769998056577,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
