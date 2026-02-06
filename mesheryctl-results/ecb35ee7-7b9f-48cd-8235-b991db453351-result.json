@@ -1,0 +1,23 @@
+{
+  "uuid": "ecb35ee7-7b9f-48cd-8235-b991db453351",
+  "name": "view command fails with an invalid output format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770418695367,
+  "stop": 1770418695368,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
