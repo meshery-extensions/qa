@@ -1,0 +1,23 @@
+{
+  "uuid": "5414cf37-62f2-4c72-a46d-488a21eb1b3c",
+  "name": "mesheryctl model import fails for invalid files",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770347472397,
+  "stop": 1770347472398,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
