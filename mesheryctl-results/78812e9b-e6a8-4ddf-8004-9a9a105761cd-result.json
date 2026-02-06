@@ -1,0 +1,23 @@
+{
+  "uuid": "78812e9b-e6a8-4ddf-8004-9a9a105761cd",
+  "name": "mesheryctl model import displays usage instructions",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770347510595,
+  "stop": 1770347510596,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

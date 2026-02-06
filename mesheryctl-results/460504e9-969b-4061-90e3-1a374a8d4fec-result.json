@@ -1,0 +1,23 @@
+{
+  "uuid": "460504e9-969b-4061-90e3-1a374a8d4fec",
+  "name": "mesheryctl design import with an invalid path displays an error message",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770347510597,
+  "stop": 1770347510598,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

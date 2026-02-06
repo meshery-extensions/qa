@@ -1,0 +1,25 @@
+{
+  "uuid": "341da8e7-8c79-4588-a5b3-152f7b5fabc2",
+  "name": "given a valid connection-id is provided as an argument when running mesheryctl connection delete connection-id then the existing connection is deleted",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770347510656,
+  "stop": 1770347510657,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 007-connection/04-connection-delete.bats, line 19)\n  `assert_output --partial \"Invalid API call\" ' failed\n\n-- output does not contain substring --\nsubstring : Invalid API call\noutput    : Error: No connection with id \"00000000-0000-0000-0000-000000000000\" found | Short Description: Connection not found | Probable Cause: The specified connection ID does not exist | Suggested Remediation: Verify the connection ID using `mesheryctl connection list`\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
