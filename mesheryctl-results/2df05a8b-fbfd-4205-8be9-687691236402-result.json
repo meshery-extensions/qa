@@ -1,0 +1,25 @@
+{
+  "uuid": "2df05a8b-fbfd-4205-8be9-687691236402",
+  "name": "Search for a known component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770479882875,
+  "stop": 1770479882876,
+  "statusDetails": {
+    "message": "(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 184,\n in test file 005-component/01-component-list.bats, line 26)\n  `assert_line --index 0 --regexp \"$LIST_COMMAND_OUTPUT_REGEX_PATTERN\"' failed\n\n-- regular expression does not match line --\nindex  : 0\nregexp : Total number of [a-z]+s: [0-9]+$\nline   : Fetching data from URL: api/meshmodels/components?page=0&pagesize=10\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

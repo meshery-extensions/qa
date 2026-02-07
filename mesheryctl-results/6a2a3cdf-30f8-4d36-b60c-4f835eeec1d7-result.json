@@ -1,0 +1,23 @@
+{
+  "uuid": "6a2a3cdf-30f8-4d36-b60c-4f835eeec1d7",
+  "name": "mesheryctl registry generate supports model-specific generation with spreadsheet",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770479882877,
+  "stop": 1770479882878,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

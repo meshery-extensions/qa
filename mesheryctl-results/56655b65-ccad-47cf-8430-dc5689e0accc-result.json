@@ -1,0 +1,23 @@
+{
+  "uuid": "56655b65-ccad-47cf-8430-dc5689e0accc",
+  "name": "mesheryctl design list returns total numbers of designs",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770479882865,
+  "stop": 1770479882866,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

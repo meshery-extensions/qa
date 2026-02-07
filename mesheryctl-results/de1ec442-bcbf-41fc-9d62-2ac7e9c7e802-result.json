@@ -1,0 +1,23 @@
+{
+  "uuid": "de1ec442-bcbf-41fc-9d62-2ac7e9c7e802",
+  "name": "view command saves YAML output file",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770479882876,
+  "stop": 1770479882877,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
