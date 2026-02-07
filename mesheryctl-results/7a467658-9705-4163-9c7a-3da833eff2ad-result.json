@@ -1,0 +1,23 @@
+{
+  "uuid": "7a467658-9705-4163-9c7a-3da833eff2ad",
+  "name": "Count components",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770490761299,
+  "stop": 1770490761300,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

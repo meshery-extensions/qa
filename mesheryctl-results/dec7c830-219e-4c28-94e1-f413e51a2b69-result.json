@@ -1,0 +1,23 @@
+{
+  "uuid": "dec7c830-219e-4c28-94e1-f413e51a2b69",
+  "name": "mesheryctl perf apply fails when new profile and URL is missing",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770490761299,
+  "stop": 1770490761300,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "1585a670-c5b0-4543-9e95-878440d27524",
+  "name": "mesheryctl perf profile lists available profiles including test-profile",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770490761299,
+  "stop": 1770490761300,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
