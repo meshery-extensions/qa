@@ -1,0 +1,23 @@
+{
+  "uuid": "64bd27b9-c170-4986-9322-a5724ba60e07",
+  "name": "mesheryctl model import fails for invalid model artifact",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770524658582,
+  "stop": 1770524658583,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

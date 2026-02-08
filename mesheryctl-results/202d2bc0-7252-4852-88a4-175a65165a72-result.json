@@ -1,0 +1,23 @@
+{
+  "uuid": "202d2bc0-7252-4852-88a4-175a65165a72",
+  "name": "mesheryctl model import fails for zip format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770524658582,
+  "stop": 1770524658583,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
