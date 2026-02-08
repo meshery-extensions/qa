@@ -1,0 +1,88 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "meshery-logo-light-text" [ref=e5]
+    - heading "May your YAML be ever in your favor. But let's be real, it probably won't be." [level=1] [ref=e37]
+  - generic [ref=e39]:
+    - navigation [ref=e40]:
+      - generic [ref=e43]:
+        - generic [ref=e45] [cursor=pointer]:
+          - img [ref=e46]
+          - img [ref=e47]
+        - list [ref=e48]:
+          - button "Dashboard" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic:
+                - generic: Dashboard
+          - button "Lifecycle" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - generic:
+                - generic: Lifecycle
+          - button "Configuration" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]:
+              - img [ref=e67]
+              - generic:
+                - generic: Configuration
+          - button "meshery-button-2 Performance" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]:
+              - img "meshery-button-2" [ref=e75]
+              - generic:
+                - generic: Performance
+          - button "Extensions" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - img [ref=e104]
+              - generic:
+                - generic: Extensions
+          - separator [ref=e130]
+          - list [ref=e131]:
+            - button "Kanvas" [ref=e132] [cursor=pointer]:
+              - generic [ref=e134]:
+                - img [ref=e136]
+                - generic:
+                  - generic: Kanvas
+          - separator [ref=e137]
+        - generic [ref=e138]:
+          - img [ref=e141] [cursor=pointer]
+          - group [ref=e143]:
+            - listitem [ref=e144]:
+              - button [ref=e145] [cursor=pointer]:
+                - img [ref=e146]
+          - listitem [ref=e148]
+    - generic [ref=e149]:
+      - banner [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - button [ref=e156] [cursor=pointer]:
+              - img [ref=e157]
+            - text: /
+            - button [ref=e166] [cursor=pointer]:
+              - img [ref=e167]
+            - group [ref=e171]:
+              - generic [ref=e176]:
+                - combobox [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: My other workspace
+                - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                - img
+                - group
+            - text: /
+            - heading "KanvasBETA" [level=5] [ref=e179]:
+              - text: Kanvas
+              - superscript [ref=e180]: BETA
+          - generic [ref=e182]:
+            - button "contexts" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186]:
+                - img [ref=e187]
+                - generic [ref=e188]: "2"
+            - button [ref=e191] [cursor=pointer]:
+              - img [ref=e192]
+            - button [ref=e199] [cursor=pointer]:
+              - img [ref=e201]
+            - button [ref=e203] [cursor=pointer]:
+              - img [ref=e204]
+      - main [ref=e207]
+  - alert [ref=e208]: Meshery
+```
