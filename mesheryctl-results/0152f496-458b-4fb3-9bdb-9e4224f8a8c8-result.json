@@ -1,0 +1,23 @@
+{
+  "uuid": "0152f496-458b-4fb3-9bdb-9e4224f8a8c8",
+  "name": "meshery auth.json file meshery provider is Layer5",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770524645683,
+  "stop": 1770524645684,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
