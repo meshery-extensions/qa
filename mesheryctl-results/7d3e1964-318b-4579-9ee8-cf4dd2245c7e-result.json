@@ -1,0 +1,23 @@
+{
+  "uuid": "7d3e1964-318b-4579-9ee8-cf4dd2245c7e",
+  "name": "given a valid argument is provided as an argument when running mesheryctl connection view connection-id --output-format yaml then a details in default format is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770580545632,
+  "stop": 1770580545633,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
