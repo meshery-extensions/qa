@@ -1,0 +1,23 @@
+{
+  "uuid": "6f7db2a5-cb2f-405c-8ba4-0ba19d488a0c",
+  "name": "component list shows header and pagination info",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770639499823,
+  "stop": 1770639499824,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

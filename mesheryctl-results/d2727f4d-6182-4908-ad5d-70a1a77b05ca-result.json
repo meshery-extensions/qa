@@ -1,0 +1,23 @@
+{
+  "uuid": "d2727f4d-6182-4908-ad5d-70a1a77b05ca",
+  "name": "mesheryctl model export succeeds with json output format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770639499808,
+  "stop": 1770639499809,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

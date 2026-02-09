@@ -1,0 +1,23 @@
+{
+  "uuid": "1edae00b-94e5-4b4a-a833-5ea1b879f32b",
+  "name": "view command saves JSON output file",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770639499827,
+  "stop": 1770639499828,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

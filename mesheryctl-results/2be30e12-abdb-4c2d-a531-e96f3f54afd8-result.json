@@ -1,0 +1,23 @@
+{
+  "uuid": "2be30e12-abdb-4c2d-a531-e96f3f54afd8",
+  "name": "mesheryctl registry generate fails when spreadsheet-id is provided without spreadsheet-cred",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770639499827,
+  "stop": 1770639499828,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
