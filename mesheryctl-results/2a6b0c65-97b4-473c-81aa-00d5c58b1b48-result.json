@@ -1,0 +1,23 @@
+{
+  "uuid": "2a6b0c65-97b4-473c-81aa-00d5c58b1b48",
+  "name": "mesheryctl registry generate displays usage instructions when no arguments are provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770684045077,
+  "stop": 1770684045078,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
