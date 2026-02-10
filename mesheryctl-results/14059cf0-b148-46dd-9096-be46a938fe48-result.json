@@ -1,0 +1,23 @@
+{
+  "uuid": "14059cf0-b148-46dd-9096-be46a938fe48",
+  "name": "given --help flag provided when running mesheryctl exp workspace --help displays command usage",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770684005184,
+  "stop": 1770684005185,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

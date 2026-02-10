@@ -1,0 +1,23 @@
+{
+  "uuid": "f0c9a0c2-2cdd-45de-9f77-d474b9867cfc",
+  "name": "mesheryctl model view displays an existing model",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770684005158,
+  "stop": 1770684005159,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

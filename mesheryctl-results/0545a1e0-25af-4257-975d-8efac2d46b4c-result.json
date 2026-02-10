@@ -1,0 +1,23 @@
+{
+  "uuid": "0545a1e0-25af-4257-975d-8efac2d46b4c",
+  "name": "mesheryctl design delete for non-existent ID gives appropriate response",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770684005159,
+  "stop": 1770684005160,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
