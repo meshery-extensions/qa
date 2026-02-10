@@ -1,0 +1,23 @@
+{
+  "uuid": "729e4b4d-dc51-4d6f-9249-797649650866",
+  "name": "mesheryctl version return Client and Server",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770683741830,
+  "stop": 1770683741831,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
