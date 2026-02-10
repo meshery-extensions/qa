@@ -1,0 +1,23 @@
+{
+  "uuid": "ed7a0f8b-3786-4d9f-afdc-c1c94b3ff577",
+  "name": "given a non existing connection-id is provided as an argument when running mesheryctl connection delete non-existing-id then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686142735,
+  "stop": 1770686142736,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
