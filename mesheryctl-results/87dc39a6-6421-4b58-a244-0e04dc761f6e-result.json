@@ -1,0 +1,23 @@
+{
+  "uuid": "87dc39a6-6421-4b58-a244-0e04dc761f6e",
+  "name": "mesheryctl model search succeeds with default options",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686293074,
+  "stop": 1770686293075,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "70c465d3-7ddd-4f08-b2de-8041b5c3463f",
+  "name": "mesheryctl model import for empty model returns no components found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686293073,
+  "stop": 1770686293074,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

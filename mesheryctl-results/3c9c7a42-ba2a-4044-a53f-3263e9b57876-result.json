@@ -1,0 +1,23 @@
+{
+  "uuid": "3c9c7a42-ba2a-4044-a53f-3263e9b57876",
+  "name": "Search for non-existent component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686293087,
+  "stop": 1770686293088,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

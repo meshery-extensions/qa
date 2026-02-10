@@ -1,0 +1,23 @@
+{
+  "uuid": "bb76cb40-8e48-4ccc-b7b3-a753b6417c99",
+  "name": "mesheryctl system token delete succeeds for created token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686293073,
+  "stop": 1770686293074,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
