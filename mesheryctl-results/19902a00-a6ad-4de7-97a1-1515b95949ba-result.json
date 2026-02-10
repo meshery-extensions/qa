@@ -1,0 +1,23 @@
+{
+  "uuid": "19902a00-a6ad-4de7-97a1-1515b95949ba",
+  "name": "view command fails with too many arguments",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686167635,
+  "stop": 1770686167636,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

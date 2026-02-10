@@ -1,0 +1,23 @@
+{
+  "uuid": "ac47a5ed-0c08-4a3c-ae6b-41e812ee232b",
+  "name": "mesheryctl design apply applies design file",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770686167606,
+  "stop": 1770686167607,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

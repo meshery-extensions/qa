@@ -1,0 +1,23 @@
+{
+  "uuid": "c9cb5553-c3f9-42d2-9064-b9590e43402d",
+  "name": "view command displays JSON output for a known component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770686167636,
+  "stop": 1770686167637,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
