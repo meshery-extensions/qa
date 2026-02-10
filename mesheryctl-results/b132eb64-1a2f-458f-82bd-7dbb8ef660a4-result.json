@@ -1,0 +1,23 @@
+{
+  "uuid": "b132eb64-1a2f-458f-82bd-7dbb8ef660a4",
+  "name": "meshery config.yaml file as been created",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770722887031,
+  "stop": 1770722887032,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
