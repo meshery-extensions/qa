@@ -1,0 +1,23 @@
+{
+  "uuid": "b9976751-ae8c-438b-95f5-de67d36110cb",
+  "name": "mesheryctl model list --count return total numbers of models",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770722923215,
+  "stop": 1770722923216,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

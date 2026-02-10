@@ -1,0 +1,23 @@
+{
+  "uuid": "92b3e20d-02b5-412f-bd87-0e8dcb0a6d3b",
+  "name": "mesheryctl model view supports YAML output",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770722923218,
+  "stop": 1770722923219,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
