@@ -1,0 +1,25 @@
+{
+  "uuid": "7d9f3846-c388-4c96-a019-bd094a7cfa9a",
+  "name": "given all requirements are met, when running mesheryctl system check --pre then required sections and prerequisites result are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770808632729,
+  "stop": 1770808632730,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 001-system/03-system-checks.bats, line 20)\n  `assert_output --partial \"$CHECK_MESHERY_OPERATORS_HEADER\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Meshery Operators\noutput (19 lines):\n\n  Kubernetes API\n  --------------\n  ✓ can initialize Kubernetes client\n  ✓ can query the Kubernetes API\n\n  Kubernetes Version\n  --------------\n  ✓ running the minimum Kubernetes version\n  ✓ running the minimum kubectl version\n\n  Meshery Version\n  --------------\n  !! failed to check Meshery Server version. try starting Meshery with `mesheryctl system start`\n  !! CLI is not up-to-date (stable-)\n\n  Meshery Components\n  --------------\n  Error: !! Authentication token not found. Please supply a valid user token. Login with `mesheryctl system login`\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

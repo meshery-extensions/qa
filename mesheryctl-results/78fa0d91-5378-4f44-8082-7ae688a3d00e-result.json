@@ -1,0 +1,23 @@
+{
+  "uuid": "78fa0d91-5378-4f44-8082-7ae688a3d00e",
+  "name": "mesheryctl model generate fails with invalid URL",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770808632731,
+  "stop": 1770808632732,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "3662e7b0-22d3-4360-89a4-51e83a83ae68",
+  "name": "view command fails with no arguments",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770808632739,
+  "stop": 1770808632740,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
