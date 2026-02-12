@@ -1,0 +1,23 @@
+{
+  "uuid": "9b90b2f5-0d2f-415e-a172-25518362762e",
+  "name": "mesheryctl perf apply runs successfully with test-profile and valid URL",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770895772855,
+  "stop": 1770895772856,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

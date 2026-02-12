@@ -1,0 +1,23 @@
+{
+  "uuid": "fae10262-dd99-4b29-8e8d-0aeb6d08a83e",
+  "name": "mesheryctl system token list includes created token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770895772769,
+  "stop": 1770895772770,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
