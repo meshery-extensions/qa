@@ -1,0 +1,23 @@
+{
+  "uuid": "cb24f1a2-dc3a-4d18-8dfb-ada29d614cc5",
+  "name": "mesheryctl design delete removes the associate design",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770895987528,
+  "stop": 1770895987529,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

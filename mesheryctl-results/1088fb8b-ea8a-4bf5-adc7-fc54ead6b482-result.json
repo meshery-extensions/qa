@@ -1,0 +1,23 @@
+{
+  "uuid": "1088fb8b-ea8a-4bf5-adc7-fc54ead6b482",
+  "name": "view command displays YAML output for a known component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770895987544,
+  "stop": 1770895987545,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
