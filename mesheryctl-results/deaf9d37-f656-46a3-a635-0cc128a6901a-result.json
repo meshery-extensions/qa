@@ -1,0 +1,25 @@
+{
+  "uuid": "deaf9d37-f656-46a3-a635-0cc128a6901a",
+  "name": "given a valid argument is provided as an argument when running mesheryctl connection view connection-id --output-format yaml then a details in default format is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771022772902,
+  "stop": 1771022772903,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 007-connection/03-connection-view.bats, line 78)\n  `assert_output --partial \"output-format choice is invalid\" ' failed\n\n-- output does not contain substring --\nsubstring : output-format choice is invalid\noutput    : Error: Provided output format \"foo\" is invalid | Short Description: Invalid Output Format | Probable Cause: The specified output format is not supported | Suggested Remediation: Ensure using [json|yaml] as the output format\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

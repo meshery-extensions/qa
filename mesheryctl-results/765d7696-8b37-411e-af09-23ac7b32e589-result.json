@@ -1,0 +1,23 @@
+{
+  "uuid": "765d7696-8b37-411e-af09-23ac7b32e589",
+  "name": "mesheryctl model export succeeds with tar output type",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771022772833,
+  "stop": 1771022772834,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "1c3c6d96-2214-4c47-b5a7-c88414a06358",
+  "name": "Help for components list command",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771022772900,
+  "stop": 1771022772901,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

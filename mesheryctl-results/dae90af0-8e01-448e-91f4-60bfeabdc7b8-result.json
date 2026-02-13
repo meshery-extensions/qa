@@ -1,0 +1,23 @@
+{
+  "uuid": "dae90af0-8e01-448e-91f4-60bfeabdc7b8",
+  "name": "meshery pod is deployed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771022772830,
+  "stop": 1771022772831,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

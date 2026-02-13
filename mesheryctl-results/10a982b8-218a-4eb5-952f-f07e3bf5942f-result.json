@@ -1,0 +1,25 @@
+{
+  "uuid": "10a982b8-218a-4eb5-952f-f07e3bf5942f",
+  "name": "view command displays JSON output for a known component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771022772900,
+  "stop": 1771022772901,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 005-component/03-component-view.bats, line 93)\n  `assert_output --partial 'Error: output-format \"xml\" is invalid. Available options [json|yaml]'' failed\n\n-- output does not contain substring --\nsubstring : Error: output-format \"xml\" is invalid. Available options [json|yaml]\noutput    : Error: Provided output format \"xml\" is invalid | Short Description: Invalid Output Format | Probable Cause: The specified output format is not supported | Suggested Remediation: Ensure using [json|yaml] as the output format\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
