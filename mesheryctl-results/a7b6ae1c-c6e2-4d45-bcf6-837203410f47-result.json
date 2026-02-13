@@ -1,0 +1,23 @@
+{
+  "uuid": "a7b6ae1c-c6e2-4d45-bcf6-837203410f47",
+  "name": "mesheryctl perf apply uses specified load generator wrk2",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770942410441,
+  "stop": 1770942410442,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

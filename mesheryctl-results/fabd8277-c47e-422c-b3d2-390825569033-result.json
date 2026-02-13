@@ -1,0 +1,23 @@
+{
+  "uuid": "fabd8277-c47e-422c-b3d2-390825569033",
+  "name": "mesheryctl model import succeeds for valid model in uncompressed format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770942410430,
+  "stop": 1770942410431,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

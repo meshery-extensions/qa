@@ -1,0 +1,23 @@
+{
+  "uuid": "36484ecc-fa4b-4a5c-a284-143c2d04f198",
+  "name": "given no required flags when mesheryctl design onboard then an appropriate error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770942410441,
+  "stop": 1770942410442,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "dc2de0d6-a4a7-440d-a477-185d0f7367b1",
+  "name": "mesheryctl registry generate fails when registrant-def is provided without registrant-cred",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770942410443,
+  "stop": 1770942410444,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

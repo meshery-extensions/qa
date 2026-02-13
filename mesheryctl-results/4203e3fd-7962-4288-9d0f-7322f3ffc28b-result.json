@@ -1,0 +1,23 @@
+{
+  "uuid": "4203e3fd-7962-4288-9d0f-7322f3ffc28b",
+  "name": "given all requirements met when running mesheryctl connection list --kind kind-name then the connections of specified kind is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770942410443,
+  "stop": 1770942410444,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

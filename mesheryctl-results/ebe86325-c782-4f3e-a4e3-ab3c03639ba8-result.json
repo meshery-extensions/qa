@@ -1,0 +1,23 @@
+{
+  "uuid": "ebe86325-c782-4f3e-a4e3-ab3c03639ba8",
+  "name": "Search for a known component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770942410442,
+  "stop": 1770942410443,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
